@@ -27,11 +27,13 @@ El script automatiza la autenticación, navegación y validación de formularios
    cd tu_repositorio
    
 2. **Crear un entorno virtual (Opcional pero recomendado)**
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
 
 3. **nstalar las dependencias**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Configurar WebDriver**
 Asegúrate de tener Microsoft Edge instalado y el WebDriver compatible. Puedes descargarlo desde:
